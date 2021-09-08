@@ -42,7 +42,7 @@ public class ZeitdauerTest {
     
     Zeitdauer zdFalsch;
     /**
-     * 
+     * Vorbereitung für Tests.
      */
     @Before
     public void setUp() {
@@ -61,10 +61,9 @@ public class ZeitdauerTest {
     }
     @Test
     public void testeIllegalArgumentException() throws IllegalArgumentException{
-        //Problem konkurrierender Exceptions!!!
         try {
             zdFalsch = new Zeitdauer(-1, -1);
-        } catch (RuntimeException exc) {
+        } catch (IllegalArgumentException exc) {
             assertNull(exc.getMessage());
         }
     }
