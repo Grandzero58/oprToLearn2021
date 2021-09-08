@@ -1,4 +1,4 @@
-package aufgabe005und006;
+package reko202107.a05unda06;
 
 import java.io.IOException;
 import java.io.Reader;
