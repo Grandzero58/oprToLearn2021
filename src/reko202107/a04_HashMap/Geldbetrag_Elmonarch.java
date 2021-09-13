@@ -10,6 +10,7 @@ public class Geldbetrag_Elmonarch {
     
     public boolean sindGleich(Reader r1, Reader r2, short n){
         
+        
         return true;
     }
     
