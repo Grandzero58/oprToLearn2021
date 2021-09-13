@@ -13,7 +13,7 @@ Sollte nicht so schwer sein. Ansonsten könnt ihr ruhig direkt in den Master pus
 Gebt mir vorher eurer Usernamen bekannt, damit ich euch für Änderungen freischalten kann.
 
 Lasst uns Lösungen und Möglichkeiten erarbeiten und so 
-# ZUSAMMEN besser werden. 
+## ZUSAMMEN besser werden. 
 Nur so können wir die aktuelle Situation und die fehlende gegenseitige Unterstützung vor Ort ausgleichen.
 
 
