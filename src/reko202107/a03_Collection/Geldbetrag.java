@@ -1,4 +1,4 @@
-package aufgabe003;
+package reko202107.a03_Collection;
 
 import java.util.ArrayList;
 import java.util.Collection;

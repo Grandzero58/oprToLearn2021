@@ -1,5 +1,6 @@
 package aufgabe004;
 
+import reko202107.a04_HashMap.Geldbetrag;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;

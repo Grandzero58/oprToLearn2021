@@ -1,4 +1,4 @@
-package reko202102.a01;
+package reko202102.a01_Template;
 
 /**
  * Aufgabe 1(Template-Methode).

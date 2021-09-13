@@ -1,4 +1,4 @@
-package aufgabe004;
+package reko202107.a04_HashMap;
 
 import java.util.Collection;
 import java.util.HashMap;
