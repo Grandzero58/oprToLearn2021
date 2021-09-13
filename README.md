@@ -13,6 +13,7 @@ Auch wichtig:
 - Pro Reko ein eigenes Package
 - - Format: "Reko[Jahr][Monat]"
 - Pro Aufgabe in Reko auch ein eigenes Package
+- - Format: a[Nummer zweistellig]_FachlichesThema
 
 Sollte nicht so schwer sein. Ansonsten könnt ihr ruhig direkt in den Master pushen, solange ihr bei anderen nichts ändert wird das erstmal kein Problem.
 Gebt mir vorher eurer Usernamen bekannt, damit ich euch für Änderungen freischalten kann.
