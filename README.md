@@ -5,9 +5,9 @@
 
 Du kannst hier eigene Lösungen hochladen. Mache dies bitte nur in den entsprechenden Packages der Rekos und der Aufgaben.
 
-Wenn du eine Lösung erstellst, benenne die Klasse wie folgt "KlassennameDerInDerRekoAngegebenIst" und hänge deinen Usernamen mit großem Anfangsbuchstaben dran.
+Wenn du eine Lösung erstellst, benenne die Klasse wie folgt "KlassennameDerInDerRekoAngegebenIst" und hänge einen Unterstrich und deinen Usernamen mit großem Anfangsbuchstaben dran.
 
-- Beispiel: "ToilettenSortiererElmonarch"
+- Beispiel: "ToilettenSortierer_Elmonarch"
 
 Auch wichtig:
 - Pro Reko ein eigenes Package
