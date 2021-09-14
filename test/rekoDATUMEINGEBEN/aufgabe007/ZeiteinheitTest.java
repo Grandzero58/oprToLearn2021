@@ -1,4 +1,4 @@
-package aufgabe007;
+package rekoDATUMEINGEBEN.aufgabe007;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package aufgabe004;
+package rekoDATUMEINGEBEN.aufgabe004;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
