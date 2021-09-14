@@ -1,4 +1,4 @@
-package reko202107.a05unda06;
+package reko202107.a05unda06_Reader;
 
 import java.io.IOException;
 import java.io.Reader;

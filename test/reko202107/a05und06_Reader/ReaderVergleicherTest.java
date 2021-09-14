@@ -1,4 +1,4 @@
-package aufgabe005und006;
+package reko202107.a05und06_Reader;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -10,6 +10,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
+import reko202107.a05unda06_Reader.ReaderVergleicher;
 /**
  * Testklasse mit relevanten Testfällen.
  * Realisieren Sie eine setUp-Methode, die sinnvoll zum Test der Methode

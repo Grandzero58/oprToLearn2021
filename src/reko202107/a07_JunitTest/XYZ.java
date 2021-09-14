@@ -1,4 +1,4 @@
-package aufgabe007;
+package reko202107.a07_JunitTest;
 
 import java.util.LinkedList;
 import java.util.List;

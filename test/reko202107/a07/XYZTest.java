@@ -1,5 +1,6 @@
-package aufgabe007;
+package reko202107.a07;
 
+import reko202107.a07_JunitTest.XYZ;
 import java.util.LinkedList;
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;

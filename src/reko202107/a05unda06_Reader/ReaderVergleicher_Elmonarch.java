@@ -1,10 +1,6 @@
-package reko202107.a05unda06;
+package reko202107.a05unda06_Reader;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.StringReader;
 
@@ -26,7 +22,6 @@ public class ReaderVergleicher_Elmonarch {
         while (gelesen1 != -1 && gelesen2 != -1 && n > 0 && sindGleich) {
             for (int i = 0; i < gelesen1 && i < gelesen2 && n > 0 && sindGleich; i++) {
                 sindGleich = (puffer1[i] == puffer2[i]);
-//                System.out.println(puffer1[i] + " : " + puffer2[i] + " = " + sindGleich + ". n=" + n);
                 n--;
             }
             gelesen1 = r1.read(puffer1);

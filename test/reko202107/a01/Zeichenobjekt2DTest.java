@@ -1,4 +1,7 @@
-package aufgabe001;
+package reko202107.a01;
+
+import reko202107.a01_Template.Zeichenobjekt2D;
+
 /**
  * @author fibo
  */
