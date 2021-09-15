@@ -1,0 +1,48 @@
+public class sindGleichTest {
+    static final int pufferGroeße = 12;
+    Reader r1;
+    Reader r2;
+    short n;
+    public sindGleichTest(Reader r1, Reader r2, short n) {
+        this.r1 = r1;
+        this.r2 = r2;
+        this.n = n;
+    }
+    public static boolean sindGleich(Reader r1, Reader r2, short n) throws IOException {
+        boolean sindGleich = true;
+        char[] a = new char[pufferGroeße];
+        char[] b = new char[pufferGroeße];
+        int erster = r1.read(a);
+        int zweiter = r2.read(b);
+        while(erster > 0 && zweiter > 0 && n > 0 && sindGleich) {
+            int laenge = Math.min(n, Math.min(erster, zweiter));
+            for(int i = 0; i < laenge && n > 0; i++) {
+                if(a[i] != b[i]) {
+                    sindGleich = false;
+                }
+            }    
+            erster = r1.read(a);
+            zweiter = r2.read(b);            
+        }
+        return sindGleich;
+    }            
+    public static void main(String[] args) throws IOException {
+//        InputStream is1 = new FileInputStream("C:\\Users\\Kocer\\Desktop\\r1.txt");
+//        Reader r1 = new InputStreamReader(is1);
+//        InputStream is2 = new FileInputStream("C:\\Users\\Kocer\\Desktop\\r2.txt");
+//        Reader r2 = new InputStreamReader(is2);
+//        System.out.println(sindGleich(r1, r2, (short) 12));
+        Reader r1 = new StringReader("Dieser Text ist nicht besonders lang\n um Platz zu sparen");
+        Reader r2 = new StringReader("Dieser Text ist nicht besonders lang\n um Platz zu sparen");
+        Reader r3 = new StringReader("Dieser Text ist\n nicht besonders lang um Platz zu sparen");
+        Reader r4 = new StringReader("Dieser Text ist besonders lang\n um Platz zu sparen");
+        Reader r5 = new StringReader("Dieser Text ist nicht");
+        Reader r6 = new StringReader("Dieser Text");
+        Reader r7 = new StringReader("Dieser Text xst nicht besonders lang\n um Platz zu sparen");
+
+        boolean b = sindGleich(r1, r4, (short) 25);
+        boolean b2 = sindGleich(r6, r7, (short) 25);
+        System.out.println(b);
+        System.out.println(b2);
+    }
+}
